@@ -1,0 +1,45 @@
+@import url(style.css);
+
+.catalog{
+    min-height: 700px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.catalog .container{
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tour_content{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/Bern/Bern.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.tour_header{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.tour_desc{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 700px;
+}
+
+.tour_desc .container {
+    display: flex;
+    justify-content: space-between;
+}

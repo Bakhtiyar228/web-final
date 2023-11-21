@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;      
+  }
+
+.card-body .btn-primary {
+    background-color: #FF7A00; /* Orange color */
+    border-color: #FF7A00; /* Border color */
+    color: #fff; /* Text color */
+  }
+  
+  .card-body .btn-primary:hover {
+    background-color: #FF6347; /* Darker shade of orange on hover */
+    border-color: #FF6347; /* Darker shade of border color on hover */
+  }
+  

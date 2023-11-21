@@ -1,0 +1,27 @@
+@import url(style.css);
+
+.catalog{
+    min-height: 700px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.catalog .container{
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tours{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog_title{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
